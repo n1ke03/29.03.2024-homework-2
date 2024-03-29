@@ -64,7 +64,15 @@
 # если меньше нуля «Number is negative», если равно нулю
 # «Number is equal to zero»
 
-
+number = int(input("Введите целое число: "))
+if number > 0:
+    print("Number is positive")
+elif number < 0:
+    print("Number is negative")
+elif number == 0:
+    print("Number is equal to zero")
+else:
+    print("Неверный ввод")
 
 
 # Задание 4
