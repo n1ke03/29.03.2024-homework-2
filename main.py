@@ -80,11 +80,11 @@
 # ли эти числа, и, если нет, вывести их на экран в порядке
 # возрастания.
     
-number_1 = int(input("Введите целое число: "))
-number_2 = int(input("Введите целое число: "))
-if number_1 == number_2:
-    print("Числа равны")
-elif number_1 < number_2:
-    print(number_1, number_2)
-else:
-    print(number_2, number_1)
+# number_1 = int(input("Введите целое число: "))
+# number_2 = int(input("Введите целое число: "))
+# if number_1 == number_2:
+#     print("Числа равны")
+# elif number_1 < number_2:
+#     print(number_1, number_2)
+# else:
+#     print(number_2, number_1)
