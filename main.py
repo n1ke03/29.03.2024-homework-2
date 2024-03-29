@@ -64,18 +64,27 @@
 # если меньше нуля «Number is negative», если равно нулю
 # «Number is equal to zero»
 
-number = int(input("Введите целое число: "))
-if number > 0:
-    print("Number is positive")
-elif number < 0:
-    print("Number is negative")
-elif number == 0:
-    print("Number is equal to zero")
-else:
-    print("Неверный ввод")
+# number = int(input("Введите целое число: "))
+# if number > 0:
+#     print("Number is positive")
+# elif number < 0:
+#     print("Number is negative")
+# elif number == 0:
+#     print("Number is equal to zero")
+# else:
+#     print("Неверный ввод")
 
 
 # Задание 4
 # Пользователь вводит два числа. Определить, равны
 # ли эти числа, и, если нет, вывести их на экран в порядке
 # возрастания.
+    
+number_1 = int(input("Введите целое число: "))
+number_2 = int(input("Введите целое число: "))
+if number_1 == number_2:
+    print("Числа равны")
+elif number_1 < number_2:
+    print(number_1, number_2)
+else:
+    print(number_2, number_1)
